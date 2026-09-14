@@ -1,0 +1,60 @@
+.app-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.users-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card {
+  width: 220px;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* სტანდარტული მომხმარებლის სტილი */
+.user-card {
+  background-color: #ffffff;
+  border: 2px solid #e0e0e0;
+}
+
+/* ADMIN-ის დინამიური სტილი (ოქროსფერი ჩარჩო და ღია ფონი) */
+.admin-card {
+  background-color: #fffdf0;
+  border: 2px solid #ffd700;
+  box-shadow: 0 4px 12px rgba(255, 215, 0, 0.4);
+}
+
+.user-photo {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.admin-badge {
+  color: #b8860b;
+  font-weight: bold;
+}
+
+.user-badge {
+  color: #4682b4;
+}
+
+.skills-section ul {
+  padding-left: 20px;
+  margin: 5px 0;
+}
